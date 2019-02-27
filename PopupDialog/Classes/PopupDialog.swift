@@ -29,11 +29,11 @@ import UIKit
 /// Creates a Popup dialog similar to UIAlertController
 final public class PopupDialog: UIViewController {
 
-    public override var childViewControllerForStatusBarStyle: UIViewController? {
+    public override var childForStatusBarStyle: UIViewController? {
         return self.viewController
     }
     
-    public override var childViewControllerForStatusBarHidden: UIViewController? {
+    public override var childForStatusBarHidden: UIViewController? {
         return self.viewController
     }
 
